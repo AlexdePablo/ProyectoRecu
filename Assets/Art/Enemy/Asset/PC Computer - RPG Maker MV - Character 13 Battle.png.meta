@@ -1,0 +1,1266 @@
+fileFormatVersion: 2
+guid: 81c6381da2488cd4586618196c158c5d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 320
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf1cc7b2c141fd47b96a662d4373f77
+      internalID: 1500909087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 320
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e26b516a6d71404ca5cd5a43092eb4b
+      internalID: 220597149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 320
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cfb06d7e8f32044b1f86789ddabe0c
+      internalID: 1647073337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 320
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c1deca122a1ea4bbe86553847d1ef0
+      internalID: 1551623885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6701ee1a60a11fc42a44c4ecb0429af2
+      internalID: 822494713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bc802fbd0e7394a821d559444d3c76
+      internalID: 1830162820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_6
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 320
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6083f2ac5a8edb441b68eec93f3eb3f6
+      internalID: -1861521227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 320
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bb70b71605fe54eb6e695f2c3d73ad
+      internalID: -261071217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_8
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 320
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4feba030d3acc654c9bfd161638e4963
+      internalID: -714346381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae19d1564fa314c49a29987964b29bf5
+      internalID: -246621299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5986665f02b8f35499bb619ef5fe0c5b
+      internalID: 2109964363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b9a06ec89378541a5e05106e60f610
+      internalID: 1201761779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 256
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59b957c6a4f508479c474f5a92c838b
+      internalID: 147803054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_13
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc954d700794c74b845c90711d7f1b8
+      internalID: -1906124932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_14
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d8668521d245b42899674d0ccee2ad
+      internalID: -1411078757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_15
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 256
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a575671f54a16ce4e8b6c8a2c20bb05f
+      internalID: 1084763405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc22240f775c65468d4d21bbf3dd9b2
+      internalID: 183353664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_17
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 257
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5866a39aafdc15d4885407d83ca8f23a
+      internalID: 272653640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 192
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76661016d881084984e4986bc5c1b0d
+      internalID: 1730228873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 192
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88641976c037904b9cc81652a44aed3
+      internalID: -849837708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 192
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59287e92529f1b442b6e952c1e427b0f
+      internalID: -343900929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_21
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 192
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cddee0171c46c44d86f3a8271341abf
+      internalID: 1757642336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_22
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 192
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac525cdb52168d4dbc21b621bd519db
+      internalID: 1918975578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_23
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 192
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0e1727f3d3e76429e7525e86003a72
+      internalID: 1977145226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aabaa3f88b62fd4b89d3a0e081b3eaa
+      internalID: -889709273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2e5c87e887f5740942a91775c5d5eb
+      internalID: -1498363124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6164eb5c5a44c4e99abe2fad3fc58a
+      internalID: -1625320475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_27
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c434f065d912810419b1e9c9cdf5f971
+      internalID: -1001839760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_28
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 128
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753f893d6670fd54090250f6359cfb99
+      internalID: 432995638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_29
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9045dbc29080e6d45bd18d1a4d9f1da0
+      internalID: -823353231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4151db5318687824eac6658d0d3e73f9
+      internalID: -919654029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_31
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 128
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785862350ea02a44bad6ffe29fc1f8b5
+      internalID: 684735165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_32
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 128
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8905bf1bb2a3a946bf6bdfefeae5b25
+      internalID: -1532477818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_33
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147dce262caee304aa8e83aa0c0dad48
+      internalID: 1182165397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_34
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558fae48ab7c77142868fdc246db42d2
+      internalID: 1349593453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_35
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb8faa79f74c7a4a821906af98a5413
+      internalID: 733077297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_36
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c84e3e6acdb0534b8690a5bb7d55147
+      internalID: -847770318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_37
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866657ae021ee514aa4b05c559307f0a
+      internalID: 2105165551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_38
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c388160574073149b2d368cf3c287d4
+      internalID: -1741632065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_39
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 64
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0defdfbb76b593f43842cb895014c044
+      internalID: -503030291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_40
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 59
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d343c2b2df6f8241942e4bafab47f2a
+      internalID: -1210294433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_41
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 59
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600bca304d6f73e4498c3aa43de63092
+      internalID: 1944452957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dfa94859adb25498ded97f21c26852
+      internalID: 1913602541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601cb93c6073d994bb28d558e016019e
+      internalID: -1225948551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741caf508a320084d8df86eb38e729b9
+      internalID: -6166831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_45
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd51a95441a79704c8390c686a1d6f5f
+      internalID: 1930927655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a12ebc125aab6b46b12983c87c90987
+      internalID: 498693684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_47
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7210fd0148c2eab45addfde818128299
+      internalID: -1228035745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa14a9a7d6e668e4aa9fb8e7af896acc
+      internalID: 94523631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7db6cbc405c6f144bd4ac770e72e513
+      internalID: 1514729100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c194a0b617b234cbb5e6ba15c08ae5
+      internalID: 523749047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - RPG Maker MV - Character 13 Battle_51
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca86b926ddd6654186523b6c56f88e6
+      internalID: -1233871385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC Computer - RPG Maker MV - Character 13 Battle_15: 1084763405
+      PC Computer - RPG Maker MV - Character 13 Battle_30: -919654029
+      PC Computer - RPG Maker MV - Character 13 Battle_4: 822494713
+      PC Computer - RPG Maker MV - Character 13 Battle_5: 1830162820
+      PC Computer - RPG Maker MV - Character 13 Battle_17: 272653640
+      PC Computer - RPG Maker MV - Character 13 Battle_32: -1532477818
+      PC Computer - RPG Maker MV - Character 13 Battle_9: -246621299
+      PC Computer - RPG Maker MV - Character 13 Battle_36: -847770318
+      PC Computer - RPG Maker MV - Character 13 Battle_2: 1647073337
+      PC Computer - RPG Maker MV - Character 13 Battle_3: 1551623885
+      PC Computer - RPG Maker MV - Character 13 Battle_10: 2109964363
+      PC Computer - RPG Maker MV - Character 13 Battle_7: -261071217
+      PC Computer - RPG Maker MV - Character 13 Battle_23: 1977145226
+      PC Computer - RPG Maker MV - Character 13 Battle_11: 1201761779
+      PC Computer - RPG Maker MV - Character 13 Battle_31: 684735165
+      PC Computer - RPG Maker MV - Character 13 Battle_42: 1913602541
+      PC Computer - RPG Maker MV - Character 13 Battle_43: -1225948551
+      PC Computer - RPG Maker MV - Character 13 Battle_48: 94523631
+      PC Computer - RPG Maker MV - Character 13 Battle_49: 1514729100
+      PC Computer - RPG Maker MV - Character 13 Battle_14: -1411078757
+      PC Computer - RPG Maker MV - Character 13 Battle_18: 1730228873
+      PC Computer - RPG Maker MV - Character 13 Battle_13: -1906124932
+      PC Computer - RPG Maker MV - Character 13 Battle_19: -849837708
+      PC Computer - RPG Maker MV - Character 13 Battle_21: 1757642336
+      PC Computer - RPG Maker MV - Character 13 Battle_25: -1498363124
+      PC Computer - RPG Maker MV - Character 13 Battle_27: -1001839760
+      PC Computer - RPG Maker MV - Character 13 Battle_28: 432995638
+      PC Computer - RPG Maker MV - Character 13 Battle_47: -1228035745
+      PC Computer - RPG Maker MV - Character 13 Battle_46: 498693684
+      PC Computer - RPG Maker MV - Character 13 Battle_8: -714346381
+      PC Computer - RPG Maker MV - Character 13 Battle_38: -1741632065
+      PC Computer - RPG Maker MV - Character 13 Battle_6: -1861521227
+      PC Computer - RPG Maker MV - Character 13 Battle_20: -343900929
+      PC Computer - RPG Maker MV - Character 13 Battle_51: -1233871385
+      PC Computer - RPG Maker MV - Character 13 Battle_24: -889709273
+      PC Computer - RPG Maker MV - Character 13 Battle_1: 220597149
+      PC Computer - RPG Maker MV - Character 13 Battle_0: 1500909087
+      PC Computer - RPG Maker MV - Character 13 Battle_45: 1930927655
+      PC Computer - RPG Maker MV - Character 13 Battle_22: 1918975578
+      PC Computer - RPG Maker MV - Character 13 Battle_16: 183353664
+      PC Computer - RPG Maker MV - Character 13 Battle_40: -1210294433
+      PC Computer - RPG Maker MV - Character 13 Battle_26: -1625320475
+      PC Computer - RPG Maker MV - Character 13 Battle_39: -503030291
+      PC Computer - RPG Maker MV - Character 13 Battle_34: 1349593453
+      PC Computer - RPG Maker MV - Character 13 Battle_44: -6166831
+      PC Computer - RPG Maker MV - Character 13 Battle_29: -823353231
+      PC Computer - RPG Maker MV - Character 13 Battle_50: 523749047
+      PC Computer - RPG Maker MV - Character 13 Battle_41: 1944452957
+      PC Computer - RPG Maker MV - Character 13 Battle_37: 2105165551
+      PC Computer - RPG Maker MV - Character 13 Battle_35: 733077297
+      PC Computer - RPG Maker MV - Character 13 Battle_12: 147803054
+      PC Computer - RPG Maker MV - Character 13 Battle_33: 1182165397
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
