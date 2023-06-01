@@ -804,14 +804,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39bfb3867661dce4ca30cf5992b9420e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MoveSpeed: 4
-  m_JumpForce: 10
-  FuerzaEmpuje: 20
+  m_MoveSpeed: 7
+  m_JumpForce: 17
+  FuerzaEmpuje: 60
   layerRayCastSalto:
     serializedVersion: 2
     m_Bits: 128
   playerStats: {fileID: 11400000, guid: 08785b9a2b3f6c04b9afcf12fb42235a, type: 2}
   statsObjetos: {fileID: 11400000, guid: 63e540c9fad31a348b5bcee5ab727865, type: 2}
+  m_EnergyBolt: {fileID: 980831138}
 --- !u!1001 &259641406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2344,6 +2345,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &980831138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5088753001520375204, guid: bb7e9c236af9e9b4a982218fa7abbd4d, type: 3}
+  m_PrefabInstance: {fileID: 259641406}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1154502901
 GameObject:
   m_ObjectHideFlags: 0
@@ -2588,6 +2594,7 @@ GameObject:
   - component: {fileID: 1242587515}
   - component: {fileID: 1242587514}
   - component: {fileID: 1242587519}
+  - component: {fileID: 1242587520}
   m_Layer: 6
   m_Name: EnemigoBasico
   m_TagString: Untagged
@@ -2610,7 +2617,7 @@ MonoBehaviour:
   layerRayCast:
     serializedVersion: 2
     m_Bits: 64
-  m_VelocidadMovimiento: 4
+  m_VelocidadMovimiento: 6
   coinSpawn: {fileID: 5088753001520375204, guid: bb7e9c236af9e9b4a982218fa7abbd4d, type: 3}
 --- !u!61 &1242587515
 BoxCollider2D:
@@ -2625,18 +2632,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.24}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.57, y: 0.62}
+    oldSize: {x: 0.57, y: 0.63}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.55, y: 0.61}
+  m_Size: {x: 0.16, y: 0.13}
   m_EdgeRadius: 0
 --- !u!50 &1242587516
 Rigidbody2D:
@@ -2746,6 +2753,32 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!61 &1242587520
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1242587513}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.57, y: 0.63}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.57, y: 0.63}
+  m_EdgeRadius: 0
 --- !u!1 &1336222958
 GameObject:
   m_ObjectHideFlags: 0

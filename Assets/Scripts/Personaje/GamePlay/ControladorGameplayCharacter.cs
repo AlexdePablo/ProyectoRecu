@@ -17,7 +17,7 @@ public class ControladorGameplayCharacter : MonoBehaviour
     [SerializeField]
     private int m_JumpForce;
     private SpriteRenderer m_SpriteRenderer;
-    private enum estados { idle, caminar, golpear, salto }
+    private enum estados { idle, caminar, golpear, salto, SHOOT}
     private estados m_EstadosPlayer;
     private Animator m_Animator;
 
@@ -33,6 +33,15 @@ public class ControladorGameplayCharacter : MonoBehaviour
     [SerializeField]
     private StatsObjetos statsObjetos;
     Vector2 movement;
+
+    [SerializeField]
+    private GameObject m_EnergyBolt;
+
+    bool golpear = false;
+    bool combo = false;
+
+    private Coroutine m_ComboTimeCoroutine;
+
     private void Awake()
     {
         playerStats.VidaPlayer = 20;
@@ -86,11 +95,11 @@ public class ControladorGameplayCharacter : MonoBehaviour
 
         if (m_RigidBody.velocity.y < 0)
         {
-            m_RigidBody.gravityScale = 3;
+            m_RigidBody.gravityScale = 6;
         }
         else
         {
-            m_RigidBody.gravityScale = 1;
+            m_RigidBody.gravityScale = 3;
         }
 
 
@@ -119,10 +128,15 @@ public class ControladorGameplayCharacter : MonoBehaviour
                 //m_ComboTimeCoroutine = StartCoroutine(CorutineCombo(0.65f, 1.1f));
                 break;
             case estados.golpear:
+                m_ComboTimeCoroutine = StartCoroutine(CorutineCombo(0.1f, 0.5f));
                 m_Animator.Play("attack");
                 break;
             case estados.salto:
                 m_Animator.Play("jump");
+                break;
+            case estados.SHOOT:
+                m_Animator.Play("jump");
+                Shoot();
                 break;
             default:
                 break;
@@ -162,20 +176,14 @@ public class ControladorGameplayCharacter : MonoBehaviour
             case estados.golpear:
                 if (m_StateDeltaTime > 0.2)
                     ChangeState(estados.idle);
-                break;
-            /*case estados.PUNCH:
                 if (Input.GetKeyDown(KeyCode.Space) && combo)
-                    ChangeState(States.SHOOT);
-
-                else if (m_StateDeltaTime >= 1.2f)
-                    ChangeState(States.IDLE);
-
+                    ChangeState(estados.SHOOT);
                 break;
             case estados.SHOOT:
                 if (m_StateDeltaTime >= 0.4f)
-                    ChangeState(States.IDLE);
+                    ChangeState(estados.idle);
+                break;
 
-                break;*/
             default:
                 break;
         }
@@ -191,8 +199,11 @@ public class ControladorGameplayCharacter : MonoBehaviour
                 //StopCoroutine(m_ComboTimeCoroutine);
                 break;
             case estados.golpear:
+                StopCoroutine(m_ComboTimeCoroutine);
                 break;
             case estados.salto:
+                break;
+            case estados.SHOOT:
                 break;
             default:
                 break;
@@ -203,8 +214,8 @@ public class ControladorGameplayCharacter : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Enemigo"))
         {
-            m_RigidBody.AddForce(new Vector2(-10, 1) * FuerzaEmpuje, ForceMode2D.Impulse);
-            if(playerStats.GetDefensaExtra() > 0)
+            m_RigidBody.AddForce(new Vector2(-3, 1).normalized * FuerzaEmpuje, ForceMode2D.Impulse);
+            if (playerStats.GetDefensaExtra() > 0)
                 playerStats.VidaPlayer = playerStats.VidaPlayer - (10 - playerStats.GetDefensaExtra() / 10);
             else
                 playerStats.VidaPlayer = playerStats.VidaPlayer - 10;
@@ -213,6 +224,26 @@ public class ControladorGameplayCharacter : MonoBehaviour
             if (playerStats.VidaPlayer <= 0)
                 SceneManager.LoadScene("SampleScene");
         }
+    }
+    public void Shoot()
+    {
+        GameObject dispar = Instantiate(m_EnergyBolt);
+        dispar.transform.position = transform.position;
+        dispar.GetComponent<Rigidbody2D>().velocity = transform.right * 5f;
+    }
+
+    private IEnumerator CorutineCombo(float comboWindowStart, float comboWindowEnd)
+    {
+        combo = false;
+        yield return new WaitForSeconds(comboWindowStart);
+        combo = true;
+        yield return new WaitForSeconds(comboWindowEnd);
+        combo = false;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
     }
     private void OnDestroy()
     {
